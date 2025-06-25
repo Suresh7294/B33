@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .icon{
+           text-align: center;            
+             }
+         
+        .media{
+            background-color: lightskyblue;
+            color: black;
+            font-size: 40px;
+            margin: auto;
+            }
+
+        @media (min-width:450px) and  (max-width:600px){
+        .phone{
+            display:block;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url(https://www.pngmagic.com/image_small/holi-banner-background-for-print-and-web_9L1Ho.webp);
+            width: auto;
+              }
+          }
+
+        @media(min-width:600px) and (max-width:900px){
+        #tablet{
+            display: block;
+            background-image: url(https://www.shutterstock.com/image-vector/beautiful-wallpaper-hd-splash-watercolor-600nw-1731530425.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: auto;
+
+              }
+          }
+          .login{
+            display:block;
+            font-size: 30px;
+            padding: auto;
+            width: 100%;
+            height: 100px;
+            background-color: rgb(3, 38, 60);
+            color: white;       
+          }
+          .login:hover{
+            background-color: rgb(8, 85, 85);
+              }
+
+          .psd{
+            width: 100%;
+            height: auto;
+            font-size: 20px;
+            color: black;
+          }
+          .name{
+            width: 100%;
+            height: auto;
+            font-size: 20px;
+            color: black;
+          }
+          .cancel{
+            display: block;
+            background-color: salmon;
+            padding: auto;
+            color: white;
+            width: 100px;
+            height:30px;
+            font-size: 20px;
+          }
+          .forget{
+            font-size: 30px;        
+           display: flex;
+           justify-content: flex-end;
+         
+          }
+          
+          </style>
+</head>
+<body>
+   <div class="icon">
+        <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740" alt="not found" height="auto"width="30%">
+   </div> 
+
+  <div class="media phone" id="tablet">
+
+     <div >
+     <label>Username</label><br>
+     <input type="text" value="Enter Username" class="name">
+     </div>
+
+     <div>
+     <label>Password</label><br>
+     <input type="password" value="Enter Password" class="psd"><br>
+     </div>
+
+     <div>
+     <input type="submit" value="Login" class="login"><br>
+     </div>
+
+     <div>
+     <input type="button" value="Cancel" class="cancel"><br>
+     </div>
+
+     <div class="forget">
+     <label>Forget <span style="color:blue;"><u> Password </u></span>?</label>
+     </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    </head>
+    <style>
+        .board{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            background-color:#D2B48C;
+            margin:20px;
+            width:50%;
+            
+            border:groove 10px black;
+            margin-left: 400px;
+            padding: 30px;
+            grid-template-rows: repeat(8,1fr);
+            
+        }
+        .box
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .box1
+        {
+            background-color:#F5DEB3;
+            border:2px solid black;
+            font-size: 70px;
+            font-weight: 400;
+        }
+        .box2
+        {
+            background-color:#8B4513;
+            border:2px solid white;
+            font-size:70px ;
+            font-weight:400;
+        }
+        .light{
+            color:snow ;
+        }
+        .dark{
+            color:teal;
+        }
+        .alpha{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            background-color:#D2B48C;
+            width:50%;
+            border:groove 10px black;
+            margin-left: 400px;
+            padding-left: 30px;
+            padding-right: 30PX;
+        }
+        #one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #D2B48C;
+            font-size: 30PX;
+        }
+
+        .num{
+            display: grid;
+            grid-template-rows: repeat(8,1fr);
+            background-color:#D2B48C;
+            width:10px;
+            height:106.8vh;
+            border:groove 10px black;
+            margin-left: 300px;
+            margin-top:20px;
+            padding:20px;
+            float:left;
+        }
+        #two{
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            border: 1px solid #D2B48C;
+            font-size: 30PX;
+        
+           
+        }
+       
+    </style>
+<body>
+
+<div class="alpha">
+    <div id="one">a</div>
+    <div id="one">b</div>
+    <div id="one">c</div>
+    <div id="one">d</div>
+    <div id="one">e</div>
+    <div id="one">f</div>
+    <div id="one">g</div>
+    <div id="one">h</div>
+</div>
+
+<div class="num">
+    <div id="two">a</div>
+    <div id="two">b</div>
+    <div id="two">c</div>
+    <div id="two">d</div>
+    <div id="two">e</div>
+    <div id="two">f</div>
+    <div id="two">g</div>
+    <div id="two">h</div>
+</div>
+
+    <div class="board">
+        
+           
+
+        <div class="box box1 light">&#9814;</div>
+        <div class="box box2 light">&#x2658</div>
+        <div class="box box1 light">&#x2657</div>
+        <div class="box box2 light">&#x2654</div>
+        <div class="box box1 light">&#x2655</div>
+        <div class="box box2 light">&#x2657</div>
+        <div class="box box1 light">&#x2658</div>
+        <div class="box box2 light">&#9814;</div>
+        
+        <div class="box box2 light">&#9817</div>
+        <div class="box box1 light">&#9817</div>
+        <div class="box box2 light">&#9817</div>
+        <div class="box box1 light">&#9817</div>
+        <div class="box box2 light">&#9817</div>
+        <div class="box box1 light">&#9817</div>
+        <div class="box box2 light">&#9817</div>
+        <div class="box box1 light">&#9817</div>
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box1"></div>
+
+        <div class="box box1 dark">&#9823;</div>
+        <div class="box box2 dark">&#9823;</div>
+        <div class="box box1 dark">&#9823;</div>
+        <div class="box box2 dark">&#9823;</div>
+        <div class="box box1 dark">&#9823;</div>
+        <div class="box box2 dark">&#9823;</div>
+        <div class="box box1 dark">&#9823;</div>
+        <div class="box box2 dark">&#9823;</div>
+        
+        <div class="box box2 dark">&#9820;</div>
+        <div class="box box1 dark">&#9822;</div>
+        <div class="box box2 dark">&#9821;</div>
+        <div class="box box1 dark">&#9818;</div>
+        <div class="box box2 dark">&#9819;</div>
+        <div class="box box1 dark">&#9821;</div>
+        <div class="box box2 dark">&#9822;</div>
+        <div class="box box1 dark">&#9820;</div>
+    </div>
+</body>
+</html>

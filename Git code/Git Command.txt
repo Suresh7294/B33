@@ -1,0 +1,40 @@
+Git Command:
+1.  ls
+2. cd d:/foldername
+3.  git init
+4.git remote add origin https://github.com/chitta2015/fgfd.git
+5.git remote -v
+
+6.  git add .
+7.  git commit -m "commit message"
+
+
+  
+8.  git push origin master
+
+4.git remote remove origin(require use)
+
+Note:
+authorization when you do the first commit:
+
+git config --global user.name ""
+git config -- global user.email ""
+===========================================================
+
+branch creation steps:
+1. ls
+2. cd d:/foldername
+3.  git init
+4.git remote add origin https://github.com/chitta2015/fgfd.git
+5.git remote -v
+
+8.git add .
+9.git  commit -m "save"
+10.git branch=============>its check the branch
+7.git branch branchname ex:new
+
+11.git checkout newbranchname
+12.git add .
+13.git commit -m "branchname"
+14.git push -u origin branchname
+
